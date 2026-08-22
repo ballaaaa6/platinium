@@ -1,0 +1,48 @@
+{
+  "id": 261,
+  "name": "prop_model_261",
+  "source_filename": "prop_model_261.nsbmd",
+  "category": "source_geometry_prop",
+  "identity_label": "source geometry tall or long surface model 261",
+  "glb": "furniture/0261_prop_model_261/model.glb",
+  "status": "READY_GLB",
+  "dimensions_model_units": {
+    "x": "8.00000",
+    "y": "6.00000",
+    "z": "3.00000"
+  },
+  "footprint_tiles": {
+    "x": "1",
+    "z": "1",
+    "basis": "ceil(model bbox span / 16-unit tile); visual estimate only; collision is separate"
+  },
+  "animation_files": [
+    "prop_animation_017.nsbtp"
+  ],
+  "native_source": "res/field/props/models/prop_model_261.nsbmd",
+  "native_texture_context": [
+    "res/field/props/texture_sets/prop_texture_set_023.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_038.nsbtx"
+  ],
+  "conversion": {
+    "model_name": "gym05_o4",
+    "objects": 1,
+    "materials": 1,
+    "pieces": 1,
+    "draw_calls": 1,
+    "textured_draw_calls": 1,
+    "faces": 2,
+    "vertices": 4,
+    "complex_texture_matrices": 0,
+    "texture_parse_error": null,
+    "texture_decode_errors": [],
+    "global_scale": 1.0,
+    "canonical_model_scale": 0.5,
+    "web_tile_scale": 0.03125,
+    "glb_extents_tiles": [
+      0.5,
+      0.375,
+      0.1875
+    ]
+  }
+}

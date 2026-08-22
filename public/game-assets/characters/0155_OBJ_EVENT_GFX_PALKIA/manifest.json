@@ -1,0 +1,19 @@
+{
+  "id": 155,
+  "symbol": "OBJ_EVENT_GFX_PALKIA",
+  "asset_class": "unresolved",
+  "assembly_status": "complete_public_resource_join",
+  "renderer": "ov5_021ECA90",
+  "frames": [
+    "characters/0155_OBJ_EVENT_GFX_PALKIA/frames/texture-00-palette-00.png",
+    "characters/0155_OBJ_EVENT_GFX_PALKIA/frames/texture-01-palette-00.png"
+  ],
+  "standard_direction_sequences": null,
+  "animation_ranges": "0x0-0x10:type0",
+  "native_resources": {
+    "model": "res/prebuilt/data/mmodel/mmodel/mmodel_00000428.bin",
+    "sequence": "res/prebuilt/data/mmodel/mmodel/mmodel_00000453.bin",
+    "texture": "res/prebuilt/data/mmodel/mmodel/mmodel_00000134.bin"
+  },
+  "status": "READY_BILLBOARD"
+}

@@ -1,0 +1,48 @@
+{
+  "id": 264,
+  "name": "prop_model_264",
+  "source_filename": "prop_model_264.nsbmd",
+  "category": "source_geometry_prop",
+  "identity_label": "source geometry compact multi-surface mesh model 264",
+  "glb": "furniture/0264_prop_model_264/model.glb",
+  "status": "READY_GLB",
+  "dimensions_model_units": {
+    "x": "4.03589",
+    "y": "4.27271",
+    "z": "7.37109"
+  },
+  "footprint_tiles": {
+    "x": "1",
+    "z": "1",
+    "basis": "ceil(model bbox span / 16-unit tile); visual estimate only; collision is separate"
+  },
+  "animation_files": [
+    "no animation archive bound in source row"
+  ],
+  "native_source": "res/field/props/models/prop_model_264.nsbmd",
+  "native_texture_context": [
+    "res/field/props/texture_sets/prop_texture_set_005.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_011.nsbtx"
+  ],
+  "conversion": {
+    "model_name": "c5_o01b",
+    "objects": 1,
+    "materials": 2,
+    "pieces": 2,
+    "draw_calls": 2,
+    "textured_draw_calls": 2,
+    "faces": 36,
+    "vertices": 62,
+    "complex_texture_matrices": 0,
+    "texture_parse_error": null,
+    "texture_decode_errors": [],
+    "global_scale": 1.0,
+    "canonical_model_scale": 0.2500000822696752,
+    "web_tile_scale": 0.0156250051418547,
+    "glb_extents_tiles": [
+      0.252243125,
+      0.26704415526132724,
+      0.46069351097937217
+    ]
+  }
+}

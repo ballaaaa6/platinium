@@ -1,0 +1,50 @@
+{
+  "id": 66,
+  "name": "door01",
+  "source_filename": "door01.nsbmd",
+  "category": "named_source_prop_door",
+  "identity_label": "named source prop door01",
+  "glb": "furniture/0066_door01/model.glb",
+  "status": "READY_GLB",
+  "dimensions_model_units": {
+    "x": "4.86743",
+    "y": "6.80127",
+    "z": "0.97363"
+  },
+  "footprint_tiles": {
+    "x": "1",
+    "z": "1",
+    "basis": "ceil(model bbox span / 16-unit tile); visual estimate only; collision is separate"
+  },
+  "animation_files": [
+    "prop_animation_007.nsbca",
+    "prop_animation_008.nsbca",
+    "prop_animation_009.nsbca",
+    "prop_animation_010.nsbca"
+  ],
+  "native_source": "res/field/props/models/door01.nsbmd",
+  "native_texture_context": [
+    "res/field/props/texture_sets/prop_texture_set_000.nsbtx"
+  ],
+  "conversion": {
+    "model_name": "door01",
+    "objects": 1,
+    "materials": 1,
+    "pieces": 1,
+    "draw_calls": 1,
+    "textured_draw_calls": 1,
+    "faces": 6,
+    "vertices": 12,
+    "complex_texture_matrices": 0,
+    "texture_parse_error": null,
+    "texture_decode_errors": [],
+    "global_scale": 1.0,
+    "canonical_model_scale": 0.24999991573456387,
+    "web_tile_scale": 0.015624994733410242,
+    "glb_extents_tiles": [
+      0.30421437500000004,
+      0.4250792024251392,
+      0.060852030270351604
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": 475,
+  "name": "great_marsh_train",
+  "source_filename": "great_marsh_train.nsbmd",
+  "category": "named_source_prop_object",
+  "identity_label": "named source prop great marsh train",
+  "glb": "furniture/0475_great_marsh_train/model.glb",
+  "status": "READY_GLB",
+  "dimensions_model_units": {
+    "x": "3.37305",
+    "y": "4.15063",
+    "z": "7.93750"
+  },
+  "footprint_tiles": {
+    "x": "1",
+    "z": "1",
+    "basis": "ceil(model bbox span / 16-unit tile); visual estimate only; collision is separate"
+  },
+  "animation_files": [
+    "prop_animation_054.nsbca"
+  ],
+  "native_source": "res/field/props/models/great_marsh_train.nsbmd",
+  "native_texture_context": [
+    "res/field/props/texture_sets/prop_texture_set_059.nsbtx"
+  ],
+  "conversion": {
+    "model_name": "d6_train",
+    "objects": 1,
+    "materials": 2,
+    "pieces": 2,
+    "draw_calls": 2,
+    "textured_draw_calls": 2,
+    "faces": 246,
+    "vertices": 442,
+    "complex_texture_matrices": 0,
+    "texture_parse_error": null,
+    "texture_decode_errors": [],
+    "global_scale": 1.0,
+    "canonical_model_scale": 0.0625,
+    "web_tile_scale": 0.00390625,
+    "glb_extents_tiles": [
+      0.40915606543421745,
+      0.007094036787748337,
+      0.49609375
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": 537,
+  "name": "eterna_gym_model_clock_hour_hand",
+  "source_filename": "eterna_gym_model_clock_hour_hand.nsbmd",
+  "category": "named_source_prop_object",
+  "identity_label": "named source prop eterna gym model clock hour hand",
+  "glb": "furniture/0537_eterna_gym_model_clock_hour_hand/model.glb",
+  "status": "READY_GLB",
+  "dimensions_model_units": {
+    "x": "1.99707",
+    "y": "0.20312",
+    "z": "4.76074"
+  },
+  "footprint_tiles": {
+    "x": "1",
+    "z": "1",
+    "basis": "ceil(model bbox span / 16-unit tile); visual estimate only; collision is separate"
+  },
+  "animation_files": [
+    "no animation archive bound in source row"
+  ],
+  "native_source": "res/field/props/models/eterna_gym_model_clock_hour_hand.nsbmd",
+  "native_texture_context": [
+    "res/field/props/texture_sets/prop_texture_set_022.nsbtx"
+  ],
+  "conversion": {
+    "model_name": "gym04_hari_s",
+    "objects": 1,
+    "materials": 2,
+    "pieces": 2,
+    "draw_calls": 2,
+    "textured_draw_calls": 2,
+    "faces": 87,
+    "vertices": 131,
+    "complex_texture_matrices": 0,
+    "texture_parse_error": null,
+    "texture_decode_errors": [],
+    "global_scale": 1.0,
+    "canonical_model_scale": 0.062499971282051286,
+    "web_tile_scale": 0.0039062482051282054,
+    "glb_extents_tiles": [
+      0.12481683717948719,
+      0.012695306666666663,
+      0.29754625
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": 101,
+  "symbol": "OBJ_EVENT_GFX_VAR_0",
+  "asset_class": "unresolved",
+  "assembly_status": "incomplete_source_join",
+  "renderer": "",
+  "frames": [],
+  "standard_direction_sequences": null,
+  "animation_ranges": "",
+  "native_resources": {
+    "model": "",
+    "sequence": "",
+    "texture": ""
+  },
+  "status": "METADATA_ONLY"
+}

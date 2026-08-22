@@ -1,0 +1,51 @@
+{
+  "id": 303,
+  "name": "bike_muddy_slope",
+  "source_filename": "bike_muddy_slope.nsbmd",
+  "category": "named_source_prop_object",
+  "identity_label": "named source prop bike muddy slope",
+  "glb": "furniture/0303_bike_muddy_slope/model.glb",
+  "status": "READY_GLB",
+  "dimensions_model_units": {
+    "x": "2.00000",
+    "y": "4.00000",
+    "z": "4.00000"
+  },
+  "footprint_tiles": {
+    "x": "1",
+    "z": "1",
+    "basis": "ceil(model bbox span / 16-unit tile); visual estimate only; collision is separate"
+  },
+  "animation_files": [
+    "prop_animation_020.nsbta",
+    "prop_animation_021.nsbta"
+  ],
+  "native_source": "res/field/props/models/bike_muddy_slope.nsbmd",
+  "native_texture_context": [
+    "res/field/props/texture_sets/prop_texture_set_003.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_006.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_013.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_015.nsbtx"
+  ],
+  "conversion": {
+    "model_name": "cy_slope",
+    "objects": 1,
+    "materials": 2,
+    "pieces": 2,
+    "draw_calls": 2,
+    "textured_draw_calls": 2,
+    "faces": 12,
+    "vertices": 16,
+    "complex_texture_matrices": 0,
+    "texture_parse_error": null,
+    "texture_decode_errors": [],
+    "global_scale": 1.0,
+    "canonical_model_scale": 0.125,
+    "web_tile_scale": 0.0078125,
+    "glb_extents_tiles": [
+      0.125,
+      0.25,
+      0.25
+    ]
+  }
+}

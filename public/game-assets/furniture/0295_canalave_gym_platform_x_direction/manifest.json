@@ -1,0 +1,47 @@
+{
+  "id": 295,
+  "name": "canalave_gym_platform_x_direction",
+  "source_filename": "canalave_gym_platform_x_direction.nsbmd",
+  "category": "named_source_prop_object",
+  "identity_label": "named source prop canalave gym platform x direction",
+  "glb": "furniture/0295_canalave_gym_platform_x_direction/model.glb",
+  "status": "READY_GLB",
+  "dimensions_model_units": {
+    "x": "8.00000",
+    "y": "1.50000",
+    "z": "8.00000"
+  },
+  "footprint_tiles": {
+    "x": "1",
+    "z": "1",
+    "basis": "ceil(model bbox span / 16-unit tile); visual estimate only; collision is separate"
+  },
+  "animation_files": [
+    "no animation archive bound in source row"
+  ],
+  "native_source": "res/field/props/models/canalave_gym_platform_x_direction.nsbmd",
+  "native_texture_context": [
+    "res/field/props/texture_sets/prop_texture_set_020.nsbtx"
+  ],
+  "conversion": {
+    "model_name": "lift_base03",
+    "objects": 1,
+    "materials": 2,
+    "pieces": 2,
+    "draw_calls": 2,
+    "textured_draw_calls": 2,
+    "faces": 8,
+    "vertices": 16,
+    "complex_texture_matrices": 0,
+    "texture_parse_error": null,
+    "texture_decode_errors": [],
+    "global_scale": 1.0,
+    "canonical_model_scale": 0.25,
+    "web_tile_scale": 0.015625,
+    "glb_extents_tiles": [
+      0.5,
+      0.09375,
+      0.5
+    ]
+  }
+}

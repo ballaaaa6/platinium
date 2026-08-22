@@ -1,0 +1,47 @@
+{
+  "id": 107,
+  "name": "prop_model_107",
+  "source_filename": "prop_model_107.nsbmd",
+  "category": "source_geometry_prop",
+  "identity_label": "source geometry tall or long surface model 107",
+  "glb": "furniture/0107_prop_model_107/model.glb",
+  "status": "READY_GLB",
+  "dimensions_model_units": {
+    "x": "0.37500",
+    "y": "2.75000",
+    "z": "0.00000"
+  },
+  "footprint_tiles": {
+    "x": "1",
+    "z": "0",
+    "basis": "ceil(model bbox span / 16-unit tile); visual estimate only; collision is separate"
+  },
+  "animation_files": [
+    "prop_animation_060.nsbta"
+  ],
+  "native_source": "res/field/props/models/prop_model_107.nsbmd",
+  "native_texture_context": [
+    "res/field/props/texture_sets/prop_texture_set_032.nsbtx"
+  ],
+  "conversion": {
+    "model_name": "siten_light",
+    "objects": 1,
+    "materials": 1,
+    "pieces": 1,
+    "draw_calls": 1,
+    "textured_draw_calls": 1,
+    "faces": 4,
+    "vertices": 8,
+    "complex_texture_matrices": 1,
+    "texture_parse_error": null,
+    "texture_decode_errors": [],
+    "global_scale": 1.0,
+    "canonical_model_scale": 0.125,
+    "web_tile_scale": 0.0078125,
+    "glb_extents_tiles": [
+      0.0234375,
+      0.171875,
+      0.0
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": 558,
+  "name": "prop_model_558",
+  "source_filename": "prop_model_558.nsbmd",
+  "category": "source_geometry_prop",
+  "identity_label": "source geometry tall or long surface model 558",
+  "glb": "furniture/0558_prop_model_558/model.glb",
+  "status": "READY_GLB",
+  "dimensions_model_units": {
+    "x": "11.56250",
+    "y": "3.12500",
+    "z": "4.37500"
+  },
+  "footprint_tiles": {
+    "x": "1",
+    "z": "1",
+    "basis": "ceil(model bbox span / 16-unit tile); visual estimate only; collision is separate"
+  },
+  "animation_files": [
+    "prop_animation_077.nsbta"
+  ],
+  "native_source": "res/field/props/models/prop_model_558.nsbmd",
+  "native_texture_context": [
+    "res/field/props/texture_sets/prop_texture_set_042.nsbtx"
+  ],
+  "conversion": {
+    "model_name": "bf_idoyuka",
+    "objects": 1,
+    "materials": 1,
+    "pieces": 1,
+    "draw_calls": 1,
+    "textured_draw_calls": 1,
+    "faces": 72,
+    "vertices": 88,
+    "complex_texture_matrices": 1,
+    "texture_parse_error": null,
+    "texture_decode_errors": [],
+    "global_scale": 1.0,
+    "canonical_model_scale": 0.03125,
+    "web_tile_scale": 0.001953125,
+    "glb_extents_tiles": [
+      0.72265625,
+      0.1953125,
+      0.2734375
+    ]
+  }
+}

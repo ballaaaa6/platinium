@@ -1,0 +1,50 @@
+{
+  "id": 484,
+  "name": "card_door",
+  "source_filename": "card_door.nsbmd",
+  "category": "named_source_prop_door",
+  "identity_label": "named source prop card door",
+  "glb": "furniture/0484_card_door/model.glb",
+  "status": "READY_GLB",
+  "dimensions_model_units": {
+    "x": "4.00000",
+    "y": "5.25000",
+    "z": "0.00000"
+  },
+  "footprint_tiles": {
+    "x": "1",
+    "z": "0",
+    "basis": "ceil(model bbox span / 16-unit tile); visual estimate only; collision is separate"
+  },
+  "animation_files": [
+    "prop_animation_027.nsbca",
+    "prop_animation_028.nsbca"
+  ],
+  "native_source": "res/field/props/models/card_door.nsbmd",
+  "native_texture_context": [
+    "res/field/props/texture_sets/prop_texture_set_030.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_054.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_064.nsbtx"
+  ],
+  "conversion": {
+    "model_name": "card_door01",
+    "objects": 3,
+    "materials": 1,
+    "pieces": 2,
+    "draw_calls": 2,
+    "textured_draw_calls": 2,
+    "faces": 4,
+    "vertices": 8,
+    "complex_texture_matrices": 0,
+    "texture_parse_error": null,
+    "texture_decode_errors": [],
+    "global_scale": 1.0,
+    "canonical_model_scale": 0.125,
+    "web_tile_scale": 0.0078125,
+    "glb_extents_tiles": [
+      0.25,
+      0.328125,
+      0.0
+    ]
+  }
+}

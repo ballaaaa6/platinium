@@ -1,0 +1,47 @@
+{
+  "id": 561,
+  "name": "villa_furniture_small_sofa",
+  "source_filename": "villa_furniture_small_sofa.nsbmd",
+  "category": "named_source_prop_object",
+  "identity_label": "named source prop villa furniture small sofa",
+  "glb": "furniture/0561_villa_furniture_small_sofa/model.glb",
+  "status": "READY_GLB",
+  "dimensions_model_units": {
+    "x": "5.87500",
+    "y": "1.50000",
+    "z": "3.75000"
+  },
+  "footprint_tiles": {
+    "x": "1",
+    "z": "1",
+    "basis": "ceil(model bbox span / 16-unit tile); visual estimate only; collision is separate"
+  },
+  "animation_files": [
+    "no animation archive bound in source row"
+  ],
+  "native_source": "res/field/props/models/villa_furniture_small_sofa.nsbmd",
+  "native_texture_context": [
+    "res/field/props/texture_sets/prop_texture_set_047.nsbtx"
+  ],
+  "conversion": {
+    "model_name": "t7_o03",
+    "objects": 1,
+    "materials": 3,
+    "pieces": 3,
+    "draw_calls": 3,
+    "textured_draw_calls": 2,
+    "faces": 240,
+    "vertices": 330,
+    "complex_texture_matrices": 0,
+    "texture_parse_error": null,
+    "texture_decode_errors": [],
+    "global_scale": 1.0,
+    "canonical_model_scale": 0.125,
+    "web_tile_scale": 0.0078125,
+    "glb_extents_tiles": [
+      0.3671875,
+      0.09375,
+      0.234375
+    ]
+  }
+}

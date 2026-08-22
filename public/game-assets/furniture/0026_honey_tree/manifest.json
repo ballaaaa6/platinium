@@ -1,0 +1,62 @@
+{
+  "id": 26,
+  "name": "honey_tree",
+  "source_filename": "honey_tree.nsbmd",
+  "category": "named_source_prop_object",
+  "identity_label": "named source prop honey tree",
+  "glb": "furniture/0026_honey_tree/model.glb",
+  "status": "READY_GLB",
+  "dimensions_model_units": {
+    "x": "4.50000",
+    "y": "5.14746",
+    "z": "4.11279"
+  },
+  "footprint_tiles": {
+    "x": "1",
+    "z": "1",
+    "basis": "ceil(model bbox span / 16-unit tile); visual estimate only; collision is separate"
+  },
+  "animation_files": [
+    "prop_animation_001.nsbca",
+    "prop_animation_002.nsbca",
+    "prop_animation_003.nsbca"
+  ],
+  "native_source": "res/field/props/models/honey_tree.nsbmd",
+  "native_texture_context": [
+    "res/field/props/texture_sets/prop_texture_set_000.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_003.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_004.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_005.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_006.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_007.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_008.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_009.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_010.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_011.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_012.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_013.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_014.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_015.nsbtx"
+  ],
+  "conversion": {
+    "model_name": "treeeff",
+    "objects": 4,
+    "materials": 1,
+    "pieces": 4,
+    "draw_calls": 4,
+    "textured_draw_calls": 4,
+    "faces": 8,
+    "vertices": 16,
+    "complex_texture_matrices": 0,
+    "texture_parse_error": null,
+    "texture_decode_errors": [],
+    "global_scale": 1.0,
+    "canonical_model_scale": 0.12499997723392145,
+    "web_tile_scale": 0.007812498577120091,
+    "glb_extents_tiles": [
+      0.28124994877632326,
+      0.32171625,
+      0.2570495137307911
+    ]
+  }
+}

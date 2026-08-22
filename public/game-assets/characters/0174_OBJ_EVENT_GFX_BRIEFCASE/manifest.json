@@ -1,0 +1,16 @@
+{
+  "id": 174,
+  "symbol": "OBJ_EVENT_GFX_BRIEFCASE",
+  "asset_class": "unresolved",
+  "assembly_status": "complete_public_resource_join",
+  "renderer": "ov5_021EB40C",
+  "frames": [],
+  "standard_direction_sequences": null,
+  "animation_ranges": "0x0-0xf:type0;0x10-0x1f:type0;0x20-0x2f:type0;0x30-0x3f:type0",
+  "native_resources": {
+    "model": "res/prebuilt/data/mmodel/mmodel/mmodel_00000421.bin",
+    "sequence": "res/prebuilt/data/mmodel/mmodel/mmodel_00000445.bin",
+    "texture": "res/prebuilt/data/mmodel/mmodel/mmodel_00000153.bin"
+  },
+  "status": "METADATA_ONLY"
+}

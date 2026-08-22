@@ -1,0 +1,58 @@
+{
+  "id": 41,
+  "symbol": "OBJ_EVENT_GFX_RANCHER",
+  "asset_class": "unresolved",
+  "assembly_status": "complete_public_resource_join",
+  "renderer": "ov5_021EB398",
+  "frames": [
+    "characters/0041_OBJ_EVENT_GFX_RANCHER/frames/texture-00-palette-00.png",
+    "characters/0041_OBJ_EVENT_GFX_RANCHER/frames/texture-01-palette-00.png",
+    "characters/0041_OBJ_EVENT_GFX_RANCHER/frames/texture-02-palette-00.png",
+    "characters/0041_OBJ_EVENT_GFX_RANCHER/frames/texture-03-palette-00.png",
+    "characters/0041_OBJ_EVENT_GFX_RANCHER/frames/texture-04-palette-00.png",
+    "characters/0041_OBJ_EVENT_GFX_RANCHER/frames/texture-05-palette-00.png",
+    "characters/0041_OBJ_EVENT_GFX_RANCHER/frames/texture-06-palette-00.png",
+    "characters/0041_OBJ_EVENT_GFX_RANCHER/frames/texture-07-palette-00.png",
+    "characters/0041_OBJ_EVENT_GFX_RANCHER/frames/texture-08-palette-00.png",
+    "characters/0041_OBJ_EVENT_GFX_RANCHER/frames/texture-09-palette-00.png",
+    "characters/0041_OBJ_EVENT_GFX_RANCHER/frames/texture-10-palette-00.png",
+    "characters/0041_OBJ_EVENT_GFX_RANCHER/frames/texture-11-palette-00.png",
+    "characters/0041_OBJ_EVENT_GFX_RANCHER/frames/texture-12-palette-00.png",
+    "characters/0041_OBJ_EVENT_GFX_RANCHER/frames/texture-13-palette-00.png",
+    "characters/0041_OBJ_EVENT_GFX_RANCHER/frames/texture-14-palette-00.png",
+    "characters/0041_OBJ_EVENT_GFX_RANCHER/frames/texture-15-palette-00.png"
+  ],
+  "standard_direction_sequences": {
+    "north": [
+      0,
+      8,
+      9,
+      10
+    ],
+    "south": [
+      11,
+      12,
+      13,
+      14
+    ],
+    "west": [
+      15,
+      1,
+      2,
+      3
+    ],
+    "east": [
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "animation_ranges": "0x0-0xf:type0;0x10-0x1f:type0;0x20-0x2f:type0;0x30-0x3f:type0",
+  "native_resources": {
+    "model": "res/prebuilt/data/mmodel/mmodel/mmodel_00000421.bin",
+    "sequence": "res/prebuilt/data/mmodel/mmodel/mmodel_00000445.bin",
+    "texture": "res/prebuilt/data/mmodel/mmodel/mmodel_00000039.bin"
+  },
+  "status": "READY_BILLBOARD"
+}

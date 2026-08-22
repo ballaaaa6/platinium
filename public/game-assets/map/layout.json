@@ -1,0 +1,40 @@
+{
+  "schema": "default-office-map-layout-v2",
+  "grid": {
+    "columns": 24,
+    "rows": 10,
+    "tile_px": 69,
+    "floor_bounds_px": [
+      0,
+      188,
+      1656,
+      878
+    ]
+  },
+  "warps": [
+    {
+      "name": "top_left_door",
+      "cell": "C08,R01",
+      "column": 8,
+      "row": 1,
+      "pixel_bounds": [
+        483,
+        188,
+        551,
+        256
+      ]
+    },
+    {
+      "name": "bottom_right_door",
+      "cell": "C21,R10",
+      "column": 21,
+      "row": 10,
+      "pixel_bounds": [
+        1380,
+        809,
+        1448,
+        877
+      ]
+    }
+  ]
+}

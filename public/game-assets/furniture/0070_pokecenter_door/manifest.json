@@ -1,0 +1,61 @@
+{
+  "id": 70,
+  "name": "pokecenter_door",
+  "source_filename": "pokecenter_door.nsbmd",
+  "category": "named_source_prop_door",
+  "identity_label": "named source prop pokecenter door",
+  "glb": "furniture/0070_pokecenter_door/model.glb",
+  "status": "READY_GLB",
+  "dimensions_model_units": {
+    "x": "5.00000",
+    "y": "7.25000",
+    "z": "0.00000"
+  },
+  "footprint_tiles": {
+    "x": "1",
+    "z": "0",
+    "basis": "ceil(model bbox span / 16-unit tile); visual estimate only; collision is separate"
+  },
+  "animation_files": [
+    "prop_animation_005.nsbca",
+    "prop_animation_006.nsbca"
+  ],
+  "native_source": "res/field/props/models/pokecenter_door.nsbmd",
+  "native_texture_context": [
+    "res/field/props/texture_sets/prop_texture_set_000.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_003.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_004.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_005.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_006.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_007.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_008.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_009.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_010.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_011.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_012.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_013.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_014.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_015.nsbtx"
+  ],
+  "conversion": {
+    "model_name": "p_door",
+    "objects": 1,
+    "materials": 1,
+    "pieces": 1,
+    "draw_calls": 1,
+    "textured_draw_calls": 1,
+    "faces": 2,
+    "vertices": 4,
+    "complex_texture_matrices": 0,
+    "texture_parse_error": null,
+    "texture_decode_errors": [],
+    "global_scale": 1.0,
+    "canonical_model_scale": 0.25,
+    "web_tile_scale": 0.015625,
+    "glb_extents_tiles": [
+      0.3125,
+      0.453125,
+      0.0
+    ]
+  }
+}

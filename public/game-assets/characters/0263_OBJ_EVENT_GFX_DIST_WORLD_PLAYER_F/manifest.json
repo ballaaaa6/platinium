@@ -1,0 +1,74 @@
+{
+  "id": 263,
+  "symbol": "OBJ_EVENT_GFX_DIST_WORLD_PLAYER_F",
+  "asset_class": "human_actor",
+  "assembly_status": "complete_public_resource_join",
+  "renderer": "ov5_021EBAD0",
+  "frames": [
+    "characters/0263_OBJ_EVENT_GFX_DIST_WORLD_PLAYER_F/frames/texture-00-palette-00.png",
+    "characters/0263_OBJ_EVENT_GFX_DIST_WORLD_PLAYER_F/frames/texture-01-palette-00.png",
+    "characters/0263_OBJ_EVENT_GFX_DIST_WORLD_PLAYER_F/frames/texture-02-palette-00.png",
+    "characters/0263_OBJ_EVENT_GFX_DIST_WORLD_PLAYER_F/frames/texture-03-palette-00.png",
+    "characters/0263_OBJ_EVENT_GFX_DIST_WORLD_PLAYER_F/frames/texture-04-palette-00.png",
+    "characters/0263_OBJ_EVENT_GFX_DIST_WORLD_PLAYER_F/frames/texture-05-palette-00.png",
+    "characters/0263_OBJ_EVENT_GFX_DIST_WORLD_PLAYER_F/frames/texture-06-palette-00.png",
+    "characters/0263_OBJ_EVENT_GFX_DIST_WORLD_PLAYER_F/frames/texture-07-palette-00.png",
+    "characters/0263_OBJ_EVENT_GFX_DIST_WORLD_PLAYER_F/frames/texture-08-palette-00.png",
+    "characters/0263_OBJ_EVENT_GFX_DIST_WORLD_PLAYER_F/frames/texture-09-palette-00.png",
+    "characters/0263_OBJ_EVENT_GFX_DIST_WORLD_PLAYER_F/frames/texture-10-palette-00.png",
+    "characters/0263_OBJ_EVENT_GFX_DIST_WORLD_PLAYER_F/frames/texture-11-palette-00.png",
+    "characters/0263_OBJ_EVENT_GFX_DIST_WORLD_PLAYER_F/frames/texture-12-palette-00.png",
+    "characters/0263_OBJ_EVENT_GFX_DIST_WORLD_PLAYER_F/frames/texture-13-palette-00.png",
+    "characters/0263_OBJ_EVENT_GFX_DIST_WORLD_PLAYER_F/frames/texture-14-palette-00.png",
+    "characters/0263_OBJ_EVENT_GFX_DIST_WORLD_PLAYER_F/frames/texture-15-palette-00.png",
+    "characters/0263_OBJ_EVENT_GFX_DIST_WORLD_PLAYER_F/frames/texture-16-palette-00.png",
+    "characters/0263_OBJ_EVENT_GFX_DIST_WORLD_PLAYER_F/frames/texture-17-palette-00.png",
+    "characters/0263_OBJ_EVENT_GFX_DIST_WORLD_PLAYER_F/frames/texture-18-palette-00.png",
+    "characters/0263_OBJ_EVENT_GFX_DIST_WORLD_PLAYER_F/frames/texture-19-palette-00.png",
+    "characters/0263_OBJ_EVENT_GFX_DIST_WORLD_PLAYER_F/frames/texture-20-palette-00.png",
+    "characters/0263_OBJ_EVENT_GFX_DIST_WORLD_PLAYER_F/frames/texture-21-palette-00.png",
+    "characters/0263_OBJ_EVENT_GFX_DIST_WORLD_PLAYER_F/frames/texture-22-palette-00.png",
+    "characters/0263_OBJ_EVENT_GFX_DIST_WORLD_PLAYER_F/frames/texture-23-palette-00.png",
+    "characters/0263_OBJ_EVENT_GFX_DIST_WORLD_PLAYER_F/frames/texture-24-palette-00.png",
+    "characters/0263_OBJ_EVENT_GFX_DIST_WORLD_PLAYER_F/frames/texture-25-palette-00.png",
+    "characters/0263_OBJ_EVENT_GFX_DIST_WORLD_PLAYER_F/frames/texture-26-palette-00.png",
+    "characters/0263_OBJ_EVENT_GFX_DIST_WORLD_PLAYER_F/frames/texture-27-palette-00.png",
+    "characters/0263_OBJ_EVENT_GFX_DIST_WORLD_PLAYER_F/frames/texture-28-palette-00.png",
+    "characters/0263_OBJ_EVENT_GFX_DIST_WORLD_PLAYER_F/frames/texture-29-palette-00.png",
+    "characters/0263_OBJ_EVENT_GFX_DIST_WORLD_PLAYER_F/frames/texture-30-palette-00.png",
+    "characters/0263_OBJ_EVENT_GFX_DIST_WORLD_PLAYER_F/frames/texture-31-palette-00.png"
+  ],
+  "standard_direction_sequences": {
+    "north": [
+      0,
+      8,
+      9,
+      10
+    ],
+    "south": [
+      11,
+      12,
+      13,
+      14
+    ],
+    "west": [
+      15,
+      1,
+      2,
+      3
+    ],
+    "east": [
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "animation_ranges": "0x0-0xf:type0;0x10-0x1f:type0;0x20-0x2f:type0;0x30-0x3f:type0;0x40-0x4f:type0;0x50-0x5f:type0;0x60-0x6f:type0;0x70-0x7f:type0",
+  "native_resources": {
+    "model": "res/prebuilt/data/mmodel/mmodel/mmodel_00000439.bin",
+    "sequence": "res/prebuilt/data/mmodel/mmodel/mmodel_00000446.bin",
+    "texture": "res/prebuilt/data/mmodel/mmodel/mmodel_00000091.bin"
+  },
+  "status": "READY_BILLBOARD"
+}

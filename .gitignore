@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.vite/
+*.log
+screenshots/
+tmp/
+temp/
+Office_New_Project_Asset_Foundation.zip
+*.bundle
+.DS_Store
+Thumbs.db
+.env
+.env.*

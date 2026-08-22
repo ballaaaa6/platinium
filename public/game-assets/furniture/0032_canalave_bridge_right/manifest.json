@@ -1,0 +1,47 @@
+{
+  "id": 32,
+  "name": "canalave_bridge_right",
+  "source_filename": "canalave_bridge_right.nsbmd",
+  "category": "named_source_prop_object",
+  "identity_label": "named source prop canalave bridge right",
+  "glb": "furniture/0032_canalave_bridge_right/model.glb",
+  "status": "READY_GLB",
+  "dimensions_model_units": {
+    "x": "8.37500",
+    "y": "4.62500",
+    "z": "6.25000"
+  },
+  "footprint_tiles": {
+    "x": "1",
+    "z": "1",
+    "basis": "ceil(model bbox span / 16-unit tile); visual estimate only; collision is separate"
+  },
+  "animation_files": [
+    "prop_animation_040.nsbca"
+  ],
+  "native_source": "res/field/props/models/canalave_bridge_right.nsbmd",
+  "native_texture_context": [
+    "res/field/props/texture_sets/prop_texture_set_011.nsbtx"
+  ],
+  "conversion": {
+    "model_name": "c2_s03b",
+    "objects": 6,
+    "materials": 2,
+    "pieces": 5,
+    "draw_calls": 5,
+    "textured_draw_calls": 5,
+    "faces": 196,
+    "vertices": 340,
+    "complex_texture_matrices": 0,
+    "texture_parse_error": null,
+    "texture_decode_errors": [],
+    "global_scale": 1.0,
+    "canonical_model_scale": 0.0625,
+    "web_tile_scale": 0.00390625,
+    "glb_extents_tiles": [
+      0.44921875,
+      0.593963623046875,
+      0.390625
+    ]
+  }
+}

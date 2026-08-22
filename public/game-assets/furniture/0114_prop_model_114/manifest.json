@@ -1,0 +1,69 @@
+{
+  "id": 114,
+  "name": "prop_model_114",
+  "source_filename": "prop_model_114.nsbmd",
+  "category": "source_geometry_prop",
+  "identity_label": "source geometry multi-surface mesh model 114",
+  "glb": "furniture/0114_prop_model_114/model.glb",
+  "status": "READY_GLB",
+  "dimensions_model_units": {
+    "x": "4.72949",
+    "y": "5.70361",
+    "z": "4.09570"
+  },
+  "footprint_tiles": {
+    "x": "1",
+    "z": "1",
+    "basis": "ceil(model bbox span / 16-unit tile); visual estimate only; collision is separate"
+  },
+  "animation_files": [
+    "prop_animation_004.nsbta"
+  ],
+  "native_source": "res/field/props/models/prop_model_114.nsbmd",
+  "native_texture_context": [
+    "res/field/props/texture_sets/prop_texture_set_001.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_002.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_016.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_028.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_029.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_030.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_031.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_033.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_034.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_035.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_037.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_038.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_039.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_040.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_041.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_042.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_043.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_044.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_045.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_048.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_054.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_062.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_064.nsbtx"
+  ],
+  "conversion": {
+    "model_name": "machine_l02",
+    "objects": 1,
+    "materials": 4,
+    "pieces": 4,
+    "draw_calls": 4,
+    "textured_draw_calls": 4,
+    "faces": 200,
+    "vertices": 344,
+    "complex_texture_matrices": 0,
+    "texture_parse_error": null,
+    "texture_decode_errors": [],
+    "global_scale": 1.0,
+    "canonical_model_scale": 0.1249999280883486,
+    "web_tile_scale": 0.007812495505521788,
+    "glb_extents_tiles": [
+      0.29559309166595327,
+      0.356475625,
+      0.2559812980481123
+    ]
+  }
+}

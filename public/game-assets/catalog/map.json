@@ -1,0 +1,58 @@
+{
+  "id": "default_office",
+  "format": "glb",
+  "glb": "map/default_office.glb",
+  "grid": {
+    "columns": 24,
+    "rows": 10
+  },
+  "doors": {
+    "top": "C08,R01",
+    "bottom": "C21,R10"
+  },
+  "stats": {
+    "model_name": "native_office",
+    "objects": 1,
+    "materials": 5,
+    "pieces": 5,
+    "draw_calls": 5,
+    "textured_draw_calls": 0,
+    "faces": 144,
+    "vertices": 288,
+    "complex_texture_matrices": 0,
+    "texture_parse_error": null,
+    "texture_decode_errors": [],
+    "global_scale": 0.0625
+  },
+  "unit_contract": {
+    "logical_tile_world_unit": 1.0,
+    "map_source_units_per_tile": 16.0,
+    "map_export_scale": 0.0625,
+    "note": "Map GLB is normalized so one logical office tile is one world unit."
+  },
+  "glb_bounds_world_units": [
+    [
+      -12.0,
+      0.0,
+      -5.2158203125
+    ],
+    [
+      12.0,
+      5.6396484375,
+      5.1123046875
+    ]
+  ],
+  "glb_extents_world_units": [
+    24.0,
+    5.6396484375,
+    10.328125
+  ],
+  "placement_contract": {
+    "world_units_per_tile": 1.0,
+    "grid_columns": 24,
+    "grid_rows": 10,
+    "floor_origin_convention": "consumer chooses map origin; use layout.json/cells.csv for exact C/R mapping",
+    "top_door_cell": "C08,R01",
+    "bottom_door_cell": "C21,R10"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": 301,
+  "name": "canalave_gym_third_floor",
+  "source_filename": "canalave_gym_third_floor.nsbmd",
+  "category": "named_source_prop_object",
+  "identity_label": "named source prop canalave gym third floor",
+  "glb": "furniture/0301_canalave_gym_third_floor/model.glb",
+  "status": "READY_GLB",
+  "dimensions_model_units": {
+    "x": "15.00000",
+    "y": "0.62500",
+    "z": "12.68750"
+  },
+  "footprint_tiles": {
+    "x": "1",
+    "z": "1",
+    "basis": "ceil(model bbox span / 16-unit tile); visual estimate only; collision is separate"
+  },
+  "animation_files": [
+    "no animation archive bound in source row"
+  ],
+  "native_source": "res/field/props/models/canalave_gym_third_floor.nsbmd",
+  "native_texture_context": [
+    "res/field/props/texture_sets/prop_texture_set_020.nsbtx"
+  ],
+  "conversion": {
+    "model_name": "gym02_3f",
+    "objects": 1,
+    "materials": 6,
+    "pieces": 6,
+    "draw_calls": 6,
+    "textured_draw_calls": 5,
+    "faces": 305,
+    "vertices": 565,
+    "complex_texture_matrices": 0,
+    "texture_parse_error": null,
+    "texture_decode_errors": [],
+    "global_scale": 1.0,
+    "canonical_model_scale": 0.03125,
+    "web_tile_scale": 0.001953125,
+    "glb_extents_tiles": [
+      0.9375,
+      0.0390625,
+      0.79296875
+    ]
+  }
+}

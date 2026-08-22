@@ -1,0 +1,49 @@
+{
+  "id": 496,
+  "name": "lake_guardian_containment_unit",
+  "source_filename": "lake_guardian_containment_unit.nsbmd",
+  "category": "named_source_prop_object",
+  "identity_label": "named source prop lake guardian containment unit",
+  "glb": "furniture/0496_lake_guardian_containment_unit/model.glb",
+  "status": "READY_GLB",
+  "dimensions_model_units": {
+    "x": "6.23438",
+    "y": "4.87622",
+    "z": "3.87695"
+  },
+  "footprint_tiles": {
+    "x": "1",
+    "z": "1",
+    "basis": "ceil(model bbox span / 16-unit tile); visual estimate only; collision is separate"
+  },
+  "animation_files": [
+    "prop_animation_048.nsbta",
+    "prop_animation_049.nsbca"
+  ],
+  "native_source": "res/field/props/models/lake_guardian_containment_unit.nsbmd",
+  "native_texture_context": [
+    "res/field/props/texture_sets/prop_texture_set_054.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_064.nsbtx"
+  ],
+  "conversion": {
+    "model_name": "d26_o02",
+    "objects": 2,
+    "materials": 4,
+    "pieces": 4,
+    "draw_calls": 4,
+    "textured_draw_calls": 4,
+    "faces": 132,
+    "vertices": 240,
+    "complex_texture_matrices": 0,
+    "texture_parse_error": null,
+    "texture_decode_errors": [],
+    "global_scale": 1.0,
+    "canonical_model_scale": 0.12499998197566715,
+    "web_tile_scale": 0.007812498873479197,
+    "glb_extents_tiles": [
+      0.38964838131477497,
+      0.30476375,
+      0.24230953537275324
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": 463,
+  "name": "sunyshore_gear_vertical",
+  "source_filename": "sunyshore_gear_vertical.nsbmd",
+  "category": "named_source_prop_object",
+  "identity_label": "named source prop sunyshore gear vertical",
+  "glb": "furniture/0463_sunyshore_gear_vertical/model.glb",
+  "status": "READY_GLB",
+  "dimensions_model_units": {
+    "x": "5.75000",
+    "y": "10.31104",
+    "z": "10.31104"
+  },
+  "footprint_tiles": {
+    "x": "1",
+    "z": "1",
+    "basis": "ceil(model bbox span / 16-unit tile); visual estimate only; collision is separate"
+  },
+  "animation_files": [
+    "no animation archive bound in source row"
+  ],
+  "native_source": "res/field/props/models/sunyshore_gear_vertical.nsbmd",
+  "native_texture_context": [
+    "res/field/props/texture_sets/prop_texture_set_026.nsbtx"
+  ],
+  "conversion": {
+    "model_name": "gym_gear04",
+    "objects": 1,
+    "materials": 2,
+    "pieces": 2,
+    "draw_calls": 2,
+    "textured_draw_calls": 2,
+    "faces": 384,
+    "vertices": 688,
+    "complex_texture_matrices": 0,
+    "texture_parse_error": null,
+    "texture_decode_errors": [],
+    "global_scale": 1.0,
+    "canonical_model_scale": 0.1250000587204622,
+    "web_tile_scale": 0.007812503670028887,
+    "glb_extents_tiles": [
+      0.3593751688213288,
+      0.64444,
+      0.64444
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "default_map_header": "MAP_HEADER_NATIVE_LAND",
+  "map_id": "MAP_666",
+  "matrix": "map_matrix_289",
+  "visual_grid": {
+    "columns": 24,
+    "rows": 10
+  },
+  "runtime_offset": {
+    "x": 4,
+    "z": 11
+  },
+  "default_spawn": {
+    "x": 11,
+    "z": 11,
+    "facing": "FACE_DOWN"
+  },
+  "doors": {
+    "top_left": {
+      "visual": "C08,R01",
+      "warp_runtime": [
+        11,
+        10
+      ]
+    },
+    "bottom_right": {
+      "visual": "C21,R10",
+      "warp_runtime": [
+        24,
+        21
+      ]
+    }
+  },
+  "placement_rule": "Use native_land_cells.csv. Furniture and actors are specified in C/R user coordinates, then translated to runtime x/z using x=column+3, z=row+10.",
+  "visual_native_model_status": "pending_exact_png_to_nsbmd_nsbtx_conversion",
+  "visual_alignment_version": 2,
+  "visual_warp_cells": {
+    "top_left_door": "C08,R01",
+    "bottom_right_door": "C21,R10"
+  },
+  "visual_reference": "drop_in/res/field/maps/reference/native_land_grid.png"
+}

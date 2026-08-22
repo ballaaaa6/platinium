@@ -1,0 +1,21 @@
+{
+  "id": 259,
+  "symbol": "OBJ_EVENT_GFX_DIST_WORLD_PLAYER_F_SURF",
+  "asset_class": "human_actor",
+  "assembly_status": "complete_public_resource_join",
+  "renderer": "ov5_021EC3F0",
+  "frames": [
+    "characters/0259_OBJ_EVENT_GFX_DIST_WORLD_PLAYER_F_SURF/frames/texture-00-palette-00.png",
+    "characters/0259_OBJ_EVENT_GFX_DIST_WORLD_PLAYER_F_SURF/frames/texture-01-palette-00.png",
+    "characters/0259_OBJ_EVENT_GFX_DIST_WORLD_PLAYER_F_SURF/frames/texture-02-palette-00.png",
+    "characters/0259_OBJ_EVENT_GFX_DIST_WORLD_PLAYER_F_SURF/frames/texture-03-palette-00.png"
+  ],
+  "standard_direction_sequences": null,
+  "animation_ranges": "0x0-0x2:type0;0x3-0x5:type0;0x6-0x9:type0;0xa-0xb:type0",
+  "native_resources": {
+    "model": "res/prebuilt/data/mmodel/mmodel/mmodel_00000439.bin",
+    "sequence": "res/prebuilt/data/mmodel/mmodel/mmodel_00000451.bin",
+    "texture": "res/prebuilt/data/mmodel/mmodel/mmodel_00000160.bin"
+  },
+  "status": "READY_BILLBOARD"
+}

@@ -1,0 +1,19 @@
+{
+  "id": 230,
+  "symbol": "OBJ_EVENT_GFX_GIRATINA_ORIGIN",
+  "asset_class": "unresolved",
+  "assembly_status": "complete_public_resource_join",
+  "renderer": "ov5_021EB438",
+  "frames": [
+    "characters/0230_OBJ_EVENT_GFX_GIRATINA_ORIGIN/frames/texture-00-palette-00.png",
+    "characters/0230_OBJ_EVENT_GFX_GIRATINA_ORIGIN/frames/texture-01-palette-01.png"
+  ],
+  "standard_direction_sequences": null,
+  "animation_ranges": "0x0-0x13:type0",
+  "native_resources": {
+    "model": "res/prebuilt/data/mmodel/mmodel/mmodel_00000440.bin",
+    "sequence": "res/prebuilt/data/mmodel/mmodel/mmodel_00000466.bin",
+    "texture": "res/prebuilt/data/mmodel/mmodel/mmodel_00000393.bin"
+  },
+  "status": "READY_BILLBOARD"
+}

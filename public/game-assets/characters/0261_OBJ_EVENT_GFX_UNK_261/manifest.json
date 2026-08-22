@@ -1,0 +1,20 @@
+{
+  "id": 261,
+  "symbol": "OBJ_EVENT_GFX_UNK_261",
+  "asset_class": "unresolved",
+  "assembly_status": "complete_public_resource_join",
+  "renderer": "ov5_021EC454",
+  "frames": [
+    "characters/0261_OBJ_EVENT_GFX_UNK_261/frames/texture-00-palette-00.png",
+    "characters/0261_OBJ_EVENT_GFX_UNK_261/frames/texture-01-palette-00.png",
+    "characters/0261_OBJ_EVENT_GFX_UNK_261/frames/texture-02-palette-00.png"
+  ],
+  "standard_direction_sequences": null,
+  "animation_ranges": "0x0-0xa:type1",
+  "native_resources": {
+    "model": "res/prebuilt/data/mmodel/mmodel/mmodel_00000439.bin",
+    "sequence": "res/prebuilt/data/mmodel/mmodel/mmodel_00000449.bin",
+    "texture": "res/prebuilt/data/mmodel/mmodel/mmodel_00000156.bin"
+  },
+  "status": "READY_BILLBOARD"
+}

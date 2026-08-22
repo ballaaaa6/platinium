@@ -1,0 +1,16 @@
+{
+  "id": 92,
+  "symbol": "OBJ_EVENT_GFX_MAILBOX",
+  "asset_class": "object_or_effect",
+  "assembly_status": "incomplete_source_join",
+  "renderer": "ov5_021EC75C",
+  "frames": [],
+  "standard_direction_sequences": null,
+  "animation_ranges": "",
+  "native_resources": {
+    "model": "",
+    "sequence": "",
+    "texture": ""
+  },
+  "status": "METADATA_ONLY"
+}

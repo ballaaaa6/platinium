@@ -1,0 +1,66 @@
+{
+  "schema": "pokemon-platinum-web-asset-foundation-v1",
+  "map": {
+    "id": "default_office",
+    "format": "glb",
+    "glb": "map/default_office.glb",
+    "grid": {
+      "columns": 24,
+      "rows": 10
+    },
+    "doors": {
+      "top": "C08,R01",
+      "bottom": "C21,R10"
+    },
+    "stats": {
+      "model_name": "native_office",
+      "objects": 1,
+      "materials": 5,
+      "pieces": 5,
+      "draw_calls": 5,
+      "textured_draw_calls": 0,
+      "faces": 144,
+      "vertices": 288,
+      "complex_texture_matrices": 0,
+      "texture_parse_error": null,
+      "texture_decode_errors": [],
+      "global_scale": 0.0625
+    },
+    "unit_contract": {
+      "logical_tile_world_unit": 1.0,
+      "map_source_units_per_tile": 16.0,
+      "map_export_scale": 0.0625,
+      "note": "Map GLB is normalized so one logical office tile is one world unit."
+    }
+  },
+  "counts": {
+    "furniture_total": 590,
+    "furniture_glb_ready": 590,
+    "furniture_glb_failed": 0,
+    "furniture_with_embedded_texture_draws": 568,
+    "characters_total": 269,
+    "characters_with_png_frames": 221,
+    "character_png_frames": 3277,
+    "furniture_material_color_only": 22
+  },
+  "paths": {
+    "map_catalog": "catalog/map.json",
+    "furniture_catalog": "catalog/furniture.json",
+    "characters_catalog": "catalog/characters.json"
+  },
+  "scale_contract": {
+    "world_units_per_tile": 1.0,
+    "map_grid": [
+      24,
+      10
+    ],
+    "character_billboard_visual_canvas_tiles": [
+      2,
+      2
+    ],
+    "character_occupancy_tiles": [
+      1,
+      1
+    ]
+  }
+}

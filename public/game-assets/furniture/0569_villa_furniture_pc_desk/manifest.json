@@ -1,0 +1,47 @@
+{
+  "id": 569,
+  "name": "villa_furniture_pc_desk",
+  "source_filename": "villa_furniture_pc_desk.nsbmd",
+  "category": "named_source_prop_desk",
+  "identity_label": "named source prop villa furniture pc desk",
+  "glb": "furniture/0569_villa_furniture_pc_desk/model.glb",
+  "status": "READY_GLB",
+  "dimensions_model_units": {
+    "x": "3.44971",
+    "y": "4.43750",
+    "z": "5.50000"
+  },
+  "footprint_tiles": {
+    "x": "1",
+    "z": "1",
+    "basis": "ceil(model bbox span / 16-unit tile); visual estimate only; collision is separate"
+  },
+  "animation_files": [
+    "prop_animation_092.nsbtp"
+  ],
+  "native_source": "res/field/props/models/villa_furniture_pc_desk.nsbmd",
+  "native_texture_context": [
+    "res/field/props/texture_sets/prop_texture_set_047.nsbtx"
+  ],
+  "conversion": {
+    "model_name": "t7_o11",
+    "objects": 1,
+    "materials": 10,
+    "pieces": 10,
+    "draw_calls": 10,
+    "textured_draw_calls": 8,
+    "faces": 258,
+    "vertices": 420,
+    "complex_texture_matrices": 0,
+    "texture_parse_error": null,
+    "texture_decode_errors": [],
+    "global_scale": 1.0,
+    "canonical_model_scale": 0.125,
+    "web_tile_scale": 0.0078125,
+    "glb_extents_tiles": [
+      0.215606689453125,
+      0.27734375,
+      0.34375
+    ]
+  }
+}

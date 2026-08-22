@@ -1,0 +1,30 @@
+{
+  "id": 257,
+  "symbol": "OBJ_EVENT_GFX_PLAYER_F_VS_SEEKER",
+  "asset_class": "human_actor",
+  "assembly_status": "complete_public_resource_join",
+  "renderer": "ov5_021EC454",
+  "frames": [
+    "characters/0257_OBJ_EVENT_GFX_PLAYER_F_VS_SEEKER/frames/texture-00-palette-00.png",
+    "characters/0257_OBJ_EVENT_GFX_PLAYER_F_VS_SEEKER/frames/texture-01-palette-00.png",
+    "characters/0257_OBJ_EVENT_GFX_PLAYER_F_VS_SEEKER/frames/texture-02-palette-00.png",
+    "characters/0257_OBJ_EVENT_GFX_PLAYER_F_VS_SEEKER/frames/texture-03-palette-00.png",
+    "characters/0257_OBJ_EVENT_GFX_PLAYER_F_VS_SEEKER/frames/texture-04-palette-00.png",
+    "characters/0257_OBJ_EVENT_GFX_PLAYER_F_VS_SEEKER/frames/texture-05-palette-00.png",
+    "characters/0257_OBJ_EVENT_GFX_PLAYER_F_VS_SEEKER/frames/texture-06-palette-00.png",
+    "characters/0257_OBJ_EVENT_GFX_PLAYER_F_VS_SEEKER/frames/texture-07-palette-00.png",
+    "characters/0257_OBJ_EVENT_GFX_PLAYER_F_VS_SEEKER/frames/texture-08-palette-00.png",
+    "characters/0257_OBJ_EVENT_GFX_PLAYER_F_VS_SEEKER/frames/texture-09-palette-00.png",
+    "characters/0257_OBJ_EVENT_GFX_PLAYER_F_VS_SEEKER/frames/texture-10-palette-00.png",
+    "characters/0257_OBJ_EVENT_GFX_PLAYER_F_VS_SEEKER/frames/texture-11-palette-00.png",
+    "characters/0257_OBJ_EVENT_GFX_PLAYER_F_VS_SEEKER/frames/texture-12-palette-00.png"
+  ],
+  "standard_direction_sequences": null,
+  "animation_ranges": "0x0-0x3b:type1",
+  "native_resources": {
+    "model": "res/prebuilt/data/mmodel/mmodel/mmodel_00000421.bin",
+    "sequence": "res/prebuilt/data/mmodel/mmodel/mmodel_00000467.bin",
+    "texture": "res/prebuilt/data/mmodel/mmodel/mmodel_00000416.bin"
+  },
+  "status": "READY_BILLBOARD"
+}

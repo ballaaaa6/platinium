@@ -1,0 +1,49 @@
+{
+  "id": 538,
+  "name": "screw_steamship_spiral",
+  "source_filename": "screw_steamship_spiral.nsbmd",
+  "category": "named_source_prop_object",
+  "identity_label": "named source prop screw steamship spiral",
+  "glb": "furniture/0538_screw_steamship_spiral/model.glb",
+  "status": "READY_GLB",
+  "dimensions_model_units": {
+    "x": "8.78003",
+    "y": "2.86548",
+    "z": "5.25000"
+  },
+  "footprint_tiles": {
+    "x": "1",
+    "z": "1",
+    "basis": "ceil(model bbox span / 16-unit tile); visual estimate only; collision is separate"
+  },
+  "animation_files": [
+    "prop_animation_068.nsbta",
+    "prop_animation_069.nsbca"
+  ],
+  "native_source": "res/field/props/models/screw_steamship_spiral.nsbmd",
+  "native_texture_context": [
+    "res/field/props/texture_sets/prop_texture_set_010.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_015.nsbtx"
+  ],
+  "conversion": {
+    "model_name": "c09_s02",
+    "objects": 3,
+    "materials": 4,
+    "pieces": 5,
+    "draw_calls": 5,
+    "textured_draw_calls": 5,
+    "faces": 290,
+    "vertices": 544,
+    "complex_texture_matrices": 1,
+    "texture_parse_error": null,
+    "texture_decode_errors": [],
+    "global_scale": 1.0,
+    "canonical_model_scale": 0.0625,
+    "web_tile_scale": 0.00390625,
+    "glb_extents_tiles": [
+      0.5878669619560242,
+      0.16404985636472702,
+      0.328125
+    ]
+  }
+}

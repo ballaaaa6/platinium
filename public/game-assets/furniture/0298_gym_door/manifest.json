@@ -1,0 +1,63 @@
+{
+  "id": 298,
+  "name": "gym_door",
+  "source_filename": "gym_door.nsbmd",
+  "category": "named_source_prop_door",
+  "identity_label": "named source prop gym door",
+  "glb": "furniture/0298_gym_door/model.glb",
+  "status": "READY_GLB",
+  "dimensions_model_units": {
+    "x": "3.50000",
+    "y": "5.25000",
+    "z": "0.00000"
+  },
+  "footprint_tiles": {
+    "x": "1",
+    "z": "0",
+    "basis": "ceil(model bbox span / 16-unit tile); visual estimate only; collision is separate"
+  },
+  "animation_files": [
+    "prop_animation_027.nsbca",
+    "prop_animation_028.nsbca"
+  ],
+  "native_source": "res/field/props/models/gym_door.nsbmd",
+  "native_texture_context": [
+    "res/field/props/texture_sets/prop_texture_set_000.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_003.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_004.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_005.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_006.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_007.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_008.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_009.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_010.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_011.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_012.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_013.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_014.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_015.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_060.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_069.nsbtx"
+  ],
+  "conversion": {
+    "model_name": "gym_door00",
+    "objects": 3,
+    "materials": 1,
+    "pieces": 2,
+    "draw_calls": 2,
+    "textured_draw_calls": 2,
+    "faces": 4,
+    "vertices": 8,
+    "complex_texture_matrices": 0,
+    "texture_parse_error": null,
+    "texture_decode_errors": [],
+    "global_scale": 1.0,
+    "canonical_model_scale": 0.125,
+    "web_tile_scale": 0.0078125,
+    "glb_extents_tiles": [
+      0.21875,
+      0.328125,
+      0.0
+    ]
+  }
+}

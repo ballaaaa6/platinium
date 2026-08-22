@@ -1,0 +1,47 @@
+{
+  "id": 322,
+  "name": "prop_model_322",
+  "source_filename": "prop_model_322.nsbmd",
+  "category": "source_geometry_prop",
+  "identity_label": "source geometry multi-surface mesh model 322",
+  "glb": "furniture/0322_prop_model_322/model.glb",
+  "status": "READY_GLB",
+  "dimensions_model_units": {
+    "x": "6.00000",
+    "y": "5.97705",
+    "z": "5.97705"
+  },
+  "footprint_tiles": {
+    "x": "1",
+    "z": "1",
+    "basis": "ceil(model bbox span / 16-unit tile); visual estimate only; collision is separate"
+  },
+  "animation_files": [
+    "no animation archive bound in source row"
+  ],
+  "native_source": "res/field/props/models/prop_model_322.nsbmd",
+  "native_texture_context": [
+    "source prop texture context"
+  ],
+  "conversion": {
+    "model_name": "gym02_stage",
+    "objects": 1,
+    "materials": 1,
+    "pieces": 1,
+    "draw_calls": 1,
+    "textured_draw_calls": 1,
+    "faces": 112,
+    "vertices": 146,
+    "complex_texture_matrices": 0,
+    "texture_parse_error": null,
+    "texture_decode_errors": [],
+    "global_scale": 1.0,
+    "canonical_model_scale": 0.24999996732293114,
+    "web_tile_scale": 0.015624997957683196,
+    "glb_extents_tiles": [
+      0.3749999509843967,
+      0.373565625,
+      0.373565625
+    ]
+  }
+}

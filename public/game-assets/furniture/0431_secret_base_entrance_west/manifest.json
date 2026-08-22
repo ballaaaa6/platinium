@@ -1,0 +1,47 @@
+{
+  "id": 431,
+  "name": "secret_base_entrance_west",
+  "source_filename": "secret_base_entrance_west.nsbmd",
+  "category": "named_source_prop_object",
+  "identity_label": "named source prop secret base entrance west",
+  "glb": "furniture/0431_secret_base_entrance_west/model.glb",
+  "status": "READY_GLB",
+  "dimensions_model_units": {
+    "x": "8.77075",
+    "y": "6.96533",
+    "z": "11.20020"
+  },
+  "footprint_tiles": {
+    "x": "1",
+    "z": "1",
+    "basis": "ceil(model bbox span / 16-unit tile); visual estimate only; collision is separate"
+  },
+  "animation_files": [
+    "no animation archive bound in source row"
+  ],
+  "native_source": "res/field/props/models/secret_base_entrance_west.nsbmd",
+  "native_texture_context": [
+    "res/field/props/texture_sets/prop_texture_set_002.nsbtx"
+  ],
+  "conversion": {
+    "model_name": "ug_hole_l",
+    "objects": 1,
+    "materials": 1,
+    "pieces": 1,
+    "draw_calls": 1,
+    "textured_draw_calls": 1,
+    "faces": 2,
+    "vertices": 4,
+    "complex_texture_matrices": 0,
+    "texture_parse_error": null,
+    "texture_decode_errors": [],
+    "global_scale": 1.0,
+    "canonical_model_scale": 0.49999988865692413,
+    "web_tile_scale": 0.031249993041057758,
+    "glb_extents_tiles": [
+      0.548171875,
+      0.4353331550104384,
+      0.7000120511482254
+    ]
+  }
+}

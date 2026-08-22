@@ -1,0 +1,47 @@
+{
+  "id": 368,
+  "name": "prop_model_368",
+  "source_filename": "prop_model_368.nsbmd",
+  "category": "source_geometry_prop",
+  "identity_label": "source geometry multi-surface mesh model 368",
+  "glb": "furniture/0368_prop_model_368/model.glb",
+  "status": "READY_GLB",
+  "dimensions_model_units": {
+    "x": "4.39844",
+    "y": "4.41528",
+    "z": "3.30151"
+  },
+  "footprint_tiles": {
+    "x": "1",
+    "z": "1",
+    "basis": "ceil(model bbox span / 16-unit tile); visual estimate only; collision is separate"
+  },
+  "animation_files": [
+    "no animation archive bound in source row"
+  ],
+  "native_source": "res/field/props/models/prop_model_368.nsbmd",
+  "native_texture_context": [
+    "res/field/props/texture_sets/prop_texture_set_002.nsbtx"
+  ],
+  "conversion": {
+    "model_name": "ug_troph_08",
+    "objects": 1,
+    "materials": 1,
+    "pieces": 1,
+    "draw_calls": 1,
+    "textured_draw_calls": 1,
+    "faces": 54,
+    "vertices": 100,
+    "complex_texture_matrices": 0,
+    "texture_parse_error": null,
+    "texture_decode_errors": [],
+    "global_scale": 1.0,
+    "canonical_model_scale": 0.12499990931711363,
+    "web_tile_scale": 0.007812494332319602,
+    "glb_extents_tiles": [
+      0.274902144318496,
+      0.275955,
+      0.20634445479679292
+    ]
+  }
+}

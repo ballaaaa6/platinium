@@ -1,0 +1,16 @@
+{
+  "id": 262,
+  "symbol": "OBJ_EVENT_GFX_WALL_BLOCKING_ROTOMS_ROOM",
+  "asset_class": "unresolved",
+  "assembly_status": "incomplete_source_join",
+  "renderer": "ov5_021EC75C",
+  "frames": [],
+  "standard_direction_sequences": null,
+  "animation_ranges": "",
+  "native_resources": {
+    "model": "",
+    "sequence": "",
+    "texture": ""
+  },
+  "status": "METADATA_ONLY"
+}

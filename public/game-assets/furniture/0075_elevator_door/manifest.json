@@ -1,0 +1,59 @@
+{
+  "id": 75,
+  "name": "elevator_door",
+  "source_filename": "elevator_door.nsbmd",
+  "category": "named_source_prop_door",
+  "identity_label": "named source prop elevator door",
+  "glb": "furniture/0075_elevator_door/model.glb",
+  "status": "READY_GLB",
+  "dimensions_model_units": {
+    "x": "3.25000",
+    "y": "4.00000",
+    "z": "0.00000"
+  },
+  "footprint_tiles": {
+    "x": "1",
+    "z": "0",
+    "basis": "ceil(model bbox span / 16-unit tile); visual estimate only; collision is separate"
+  },
+  "animation_files": [
+    "prop_animation_051.nsbtp",
+    "prop_animation_052.nsbtp"
+  ],
+  "native_source": "res/field/props/models/elevator_door.nsbmd",
+  "native_texture_context": [
+    "res/field/props/texture_sets/prop_texture_set_018.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_027.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_029.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_030.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_034.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_035.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_041.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_042.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_043.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_044.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_045.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_048.nsbtx"
+  ],
+  "conversion": {
+    "model_name": "ele_door1",
+    "objects": 1,
+    "materials": 1,
+    "pieces": 1,
+    "draw_calls": 1,
+    "textured_draw_calls": 1,
+    "faces": 4,
+    "vertices": 8,
+    "complex_texture_matrices": 0,
+    "texture_parse_error": null,
+    "texture_decode_errors": [],
+    "global_scale": 1.0,
+    "canonical_model_scale": 0.125,
+    "web_tile_scale": 0.0078125,
+    "glb_extents_tiles": [
+      0.203125,
+      0.25,
+      0.0
+    ]
+  }
+}

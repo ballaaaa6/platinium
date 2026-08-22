@@ -1,0 +1,47 @@
+{
+  "id": 17,
+  "name": "prop_model_017",
+  "source_filename": "prop_model_017.nsbmd",
+  "category": "source_geometry_prop",
+  "identity_label": "source geometry multi-surface mesh model 17",
+  "glb": "furniture/0017_prop_model_017/model.glb",
+  "status": "READY_GLB",
+  "dimensions_model_units": {
+    "x": "8.93750",
+    "y": "7.25000",
+    "z": "3.81250"
+  },
+  "footprint_tiles": {
+    "x": "1",
+    "z": "1",
+    "basis": "ceil(model bbox span / 16-unit tile); visual estimate only; collision is separate"
+  },
+  "animation_files": [
+    "no animation archive bound in source row"
+  ],
+  "native_source": "res/field/props/models/prop_model_017.nsbmd",
+  "native_texture_context": [
+    "res/field/props/texture_sets/prop_texture_set_000.nsbtx"
+  ],
+  "conversion": {
+    "model_name": "c1_school",
+    "objects": 1,
+    "materials": 4,
+    "pieces": 4,
+    "draw_calls": 4,
+    "textured_draw_calls": 3,
+    "faces": 291,
+    "vertices": 539,
+    "complex_texture_matrices": 0,
+    "texture_parse_error": null,
+    "texture_decode_errors": [],
+    "global_scale": 1.0,
+    "canonical_model_scale": 0.0625,
+    "web_tile_scale": 0.00390625,
+    "glb_extents_tiles": [
+      0.55859375,
+      0.453125,
+      0.23828125
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": 186,
+  "symbol": "OBJ_EVENT_GFX_PLAYER_M_CONTEST",
+  "asset_class": "human_actor",
+  "assembly_status": "complete_public_resource_join",
+  "renderer": "ov5_021EBAD0",
+  "frames": [
+    "characters/0186_OBJ_EVENT_GFX_PLAYER_M_CONTEST/frames/texture-00-palette-00.png",
+    "characters/0186_OBJ_EVENT_GFX_PLAYER_M_CONTEST/frames/texture-01-palette-00.png",
+    "characters/0186_OBJ_EVENT_GFX_PLAYER_M_CONTEST/frames/texture-02-palette-00.png",
+    "characters/0186_OBJ_EVENT_GFX_PLAYER_M_CONTEST/frames/texture-03-palette-00.png",
+    "characters/0186_OBJ_EVENT_GFX_PLAYER_M_CONTEST/frames/texture-04-palette-00.png",
+    "characters/0186_OBJ_EVENT_GFX_PLAYER_M_CONTEST/frames/texture-05-palette-00.png",
+    "characters/0186_OBJ_EVENT_GFX_PLAYER_M_CONTEST/frames/texture-06-palette-00.png",
+    "characters/0186_OBJ_EVENT_GFX_PLAYER_M_CONTEST/frames/texture-07-palette-00.png",
+    "characters/0186_OBJ_EVENT_GFX_PLAYER_M_CONTEST/frames/texture-08-palette-00.png",
+    "characters/0186_OBJ_EVENT_GFX_PLAYER_M_CONTEST/frames/texture-09-palette-00.png",
+    "characters/0186_OBJ_EVENT_GFX_PLAYER_M_CONTEST/frames/texture-10-palette-00.png",
+    "characters/0186_OBJ_EVENT_GFX_PLAYER_M_CONTEST/frames/texture-11-palette-00.png",
+    "characters/0186_OBJ_EVENT_GFX_PLAYER_M_CONTEST/frames/texture-12-palette-00.png",
+    "characters/0186_OBJ_EVENT_GFX_PLAYER_M_CONTEST/frames/texture-13-palette-00.png",
+    "characters/0186_OBJ_EVENT_GFX_PLAYER_M_CONTEST/frames/texture-14-palette-00.png",
+    "characters/0186_OBJ_EVENT_GFX_PLAYER_M_CONTEST/frames/texture-15-palette-00.png"
+  ],
+  "standard_direction_sequences": {
+    "north": [
+      0,
+      8,
+      9,
+      10
+    ],
+    "south": [
+      11,
+      12,
+      13,
+      14
+    ],
+    "west": [
+      15,
+      1,
+      2,
+      3
+    ],
+    "east": [
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "animation_ranges": "0x0-0xf:type0;0x10-0x1f:type0;0x20-0x2f:type0;0x30-0x3f:type0;0x40-0x4f:type0;0x50-0x5f:type0;0x60-0x6f:type0;0x70-0x7f:type0",
+  "native_resources": {
+    "model": "res/prebuilt/data/mmodel/mmodel/mmodel_00000421.bin",
+    "sequence": "res/prebuilt/data/mmodel/mmodel/mmodel_00000454.bin",
+    "texture": "res/prebuilt/data/mmodel/mmodel/mmodel_00000164.bin"
+  },
+  "status": "READY_BILLBOARD"
+}

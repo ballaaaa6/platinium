@@ -1,0 +1,70 @@
+{
+  "id": 119,
+  "name": "pokecenter_pc",
+  "source_filename": "pokecenter_pc.nsbmd",
+  "category": "named_source_prop_pc",
+  "identity_label": "named source prop pokecenter pc",
+  "glb": "furniture/0119_pokecenter_pc/model.glb",
+  "status": "READY_GLB",
+  "dimensions_model_units": {
+    "x": "2.51807",
+    "y": "4.32227",
+    "z": "1.88989"
+  },
+  "footprint_tiles": {
+    "x": "1",
+    "z": "1",
+    "basis": "ceil(model bbox span / 16-unit tile); visual estimate only; collision is separate"
+  },
+  "animation_files": [
+    "prop_animation_041.nsbtp",
+    "prop_animation_042.nsbtp"
+  ],
+  "native_source": "res/field/props/models/pokecenter_pc.nsbmd",
+  "native_texture_context": [
+    "res/field/props/texture_sets/prop_texture_set_001.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_017.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_018.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_028.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_029.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_030.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_031.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_033.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_034.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_035.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_036.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_037.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_038.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_040.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_041.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_042.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_043.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_044.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_045.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_048.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_054.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_062.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_064.nsbtx"
+  ],
+  "conversion": {
+    "model_name": "pc01",
+    "objects": 1,
+    "materials": 3,
+    "pieces": 3,
+    "draw_calls": 3,
+    "textured_draw_calls": 3,
+    "faces": 92,
+    "vertices": 152,
+    "complex_texture_matrices": 0,
+    "texture_parse_error": null,
+    "texture_decode_errors": [],
+    "global_scale": 1.0,
+    "canonical_model_scale": 0.12500012652507908,
+    "web_tile_scale": 0.007812507907817443,
+    "glb_extents_tiles": [
+      0.1573793096899006,
+      0.27014187500000003,
+      0.11811840569221646
+    ]
+  }
+}

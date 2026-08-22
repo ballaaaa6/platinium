@@ -1,0 +1,47 @@
+{
+  "id": 242,
+  "name": "pastoria_gym_water_floor",
+  "source_filename": "pastoria_gym_water_floor.nsbmd",
+  "category": "named_source_prop_object",
+  "identity_label": "named source prop pastoria gym water floor",
+  "glb": "furniture/0242_pastoria_gym_water_floor/model.glb",
+  "status": "READY_GLB",
+  "dimensions_model_units": {
+    "x": "6.25000",
+    "y": "0.09375",
+    "z": "9.69995"
+  },
+  "footprint_tiles": {
+    "x": "1",
+    "z": "1",
+    "basis": "ceil(model bbox span / 16-unit tile); visual estimate only; collision is separate"
+  },
+  "animation_files": [
+    "prop_animation_014.nsbta"
+  ],
+  "native_source": "res/field/props/models/pastoria_gym_water_floor.nsbmd",
+  "native_texture_context": [
+    "res/field/props/texture_sets/prop_texture_set_019.nsbtx"
+  ],
+  "conversion": {
+    "model_name": "r04_w",
+    "objects": 1,
+    "materials": 3,
+    "pieces": 3,
+    "draw_calls": 3,
+    "textured_draw_calls": 3,
+    "faces": 292,
+    "vertices": 392,
+    "complex_texture_matrices": 0,
+    "texture_parse_error": null,
+    "texture_decode_errors": [],
+    "global_scale": 1.0,
+    "canonical_model_scale": 0.015625,
+    "web_tile_scale": 0.0009765625,
+    "glb_extents_tiles": [
+      0.390625,
+      0.005859375,
+      0.6062469482421875
+    ]
+  }
+}

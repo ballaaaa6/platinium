@@ -1,0 +1,49 @@
+{
+  "id": 449,
+  "name": "prop_model_449",
+  "source_filename": "prop_model_449.nsbmd",
+  "category": "source_geometry_prop",
+  "identity_label": "source geometry tall or long surface model 449",
+  "glb": "furniture/0449_prop_model_449/model.glb",
+  "status": "READY_GLB",
+  "dimensions_model_units": {
+    "x": "8.53687",
+    "y": "2.39111",
+    "z": "5.64258"
+  },
+  "footprint_tiles": {
+    "x": "1",
+    "z": "1",
+    "basis": "ceil(model bbox span / 16-unit tile); visual estimate only; collision is separate"
+  },
+  "animation_files": [
+    "prop_animation_037.nsbta"
+  ],
+  "native_source": "res/field/props/models/prop_model_449.nsbmd",
+  "native_texture_context": [
+    "res/field/props/texture_sets/prop_texture_set_008.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_010.nsbtx",
+    "res/field/props/texture_sets/prop_texture_set_015.nsbtx"
+  ],
+  "conversion": {
+    "model_name": "c06_s02",
+    "objects": 1,
+    "materials": 4,
+    "pieces": 4,
+    "draw_calls": 4,
+    "textured_draw_calls": 4,
+    "faces": 269,
+    "vertices": 431,
+    "complex_texture_matrices": 1,
+    "texture_parse_error": null,
+    "texture_decode_errors": [],
+    "global_scale": 1.0,
+    "canonical_model_scale": 0.06250002076843197,
+    "web_tile_scale": 0.003906251298026998,
+    "glb_extents_tiles": [
+      0.5335542544457423,
+      0.14944462973779854,
+      0.3526612499999999
+    ]
+  }
+}

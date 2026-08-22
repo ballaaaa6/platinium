@@ -1,0 +1,47 @@
+{
+  "id": 34,
+  "name": "regular_ship",
+  "source_filename": "regular_ship.nsbmd",
+  "category": "named_source_prop_object",
+  "identity_label": "named source prop regular ship",
+  "glb": "furniture/0034_regular_ship/model.glb",
+  "status": "READY_GLB",
+  "dimensions_model_units": {
+    "x": "5.64258",
+    "y": "2.39111",
+    "z": "8.66187"
+  },
+  "footprint_tiles": {
+    "x": "1",
+    "z": "1",
+    "basis": "ceil(model bbox span / 16-unit tile); visual estimate only; collision is separate"
+  },
+  "animation_files": [
+    "prop_animation_038.nsbta"
+  ],
+  "native_source": "res/field/props/models/regular_ship.nsbmd",
+  "native_texture_context": [
+    "res/field/props/texture_sets/prop_texture_set_011.nsbtx"
+  ],
+  "conversion": {
+    "model_name": "c2_o02",
+    "objects": 1,
+    "materials": 4,
+    "pieces": 4,
+    "draw_calls": 4,
+    "textured_draw_calls": 4,
+    "faces": 319,
+    "vertices": 533,
+    "complex_texture_matrices": 1,
+    "texture_parse_error": null,
+    "texture_decode_errors": [],
+    "global_scale": 1.0,
+    "canonical_model_scale": 0.06250002076843197,
+    "web_tile_scale": 0.003906251298026998,
+    "glb_extents_tiles": [
+      0.3526612499999999,
+      0.14944462973779854,
+      0.5413667570417964
+    ]
+  }
+}

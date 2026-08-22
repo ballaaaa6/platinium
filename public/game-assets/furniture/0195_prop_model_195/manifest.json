@@ -1,0 +1,47 @@
+{
+  "id": 195,
+  "name": "prop_model_195",
+  "source_filename": "prop_model_195.nsbmd",
+  "category": "source_geometry_prop",
+  "identity_label": "source geometry tall or long surface model 195",
+  "glb": "furniture/0195_prop_model_195/model.glb",
+  "status": "READY_GLB",
+  "dimensions_model_units": {
+    "x": "5.65674",
+    "y": "7.87646",
+    "z": "3.08618"
+  },
+  "footprint_tiles": {
+    "x": "1",
+    "z": "1",
+    "basis": "ceil(model bbox span / 16-unit tile); visual estimate only; collision is separate"
+  },
+  "animation_files": [
+    "no animation archive bound in source row"
+  ],
+  "native_source": "res/field/props/models/prop_model_195.nsbmd",
+  "native_texture_context": [
+    "res/field/props/texture_sets/prop_texture_set_055.nsbtx"
+  ],
+  "conversion": {
+    "model_name": "d11s01",
+    "objects": 1,
+    "materials": 4,
+    "pieces": 4,
+    "draw_calls": 4,
+    "textured_draw_calls": 4,
+    "faces": 169,
+    "vertices": 323,
+    "complex_texture_matrices": 0,
+    "texture_parse_error": null,
+    "texture_decode_errors": [],
+    "global_scale": 1.0,
+    "canonical_model_scale": 0.06249996677478048,
+    "web_tile_scale": 0.00390624792342378,
+    "glb_extents_tiles": [
+      0.35354595463175387,
+      0.49227879103710154,
+      0.19288625
+    ]
+  }
+}

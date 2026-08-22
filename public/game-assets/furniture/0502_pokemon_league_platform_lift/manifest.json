@@ -1,0 +1,47 @@
+{
+  "id": 502,
+  "name": "pokemon_league_platform_lift",
+  "source_filename": "pokemon_league_platform_lift.nsbmd",
+  "category": "named_source_prop_object",
+  "identity_label": "named source prop pokemon league platform lift",
+  "glb": "furniture/0502_pokemon_league_platform_lift/model.glb",
+  "status": "READY_GLB",
+  "dimensions_model_units": {
+    "x": "12.00000",
+    "y": "3.75000",
+    "z": "9.25000"
+  },
+  "footprint_tiles": {
+    "x": "1",
+    "z": "1",
+    "basis": "ceil(model bbox span / 16-unit tile); visual estimate only; collision is separate"
+  },
+  "animation_files": [
+    "no animation archive bound in source row"
+  ],
+  "native_source": "res/field/props/models/pokemon_league_platform_lift.nsbmd",
+  "native_texture_context": [
+    "res/field/props/texture_sets/prop_texture_set_032.nsbtx"
+  ],
+  "conversion": {
+    "model_name": "leage_lift",
+    "objects": 1,
+    "materials": 1,
+    "pieces": 1,
+    "draw_calls": 1,
+    "textured_draw_calls": 1,
+    "faces": 44,
+    "vertices": 80,
+    "complex_texture_matrices": 0,
+    "texture_parse_error": null,
+    "texture_decode_errors": [],
+    "global_scale": 1.0,
+    "canonical_model_scale": 0.25,
+    "web_tile_scale": 0.015625,
+    "glb_extents_tiles": [
+      0.75,
+      0.234375,
+      0.578125
+    ]
+  }
+}

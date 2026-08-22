@@ -1,0 +1,47 @@
+{
+  "id": 575,
+  "name": "villa_furniture_wall_clock",
+  "source_filename": "villa_furniture_wall_clock.nsbmd",
+  "category": "named_source_prop_object",
+  "identity_label": "named source prop villa furniture wall clock",
+  "glb": "furniture/0575_villa_furniture_wall_clock/model.glb",
+  "status": "READY_GLB",
+  "dimensions_model_units": {
+    "x": "4.45459",
+    "y": "7.45923",
+    "z": "0.50000"
+  },
+  "footprint_tiles": {
+    "x": "1",
+    "z": "1",
+    "basis": "ceil(model bbox span / 16-unit tile); visual estimate only; collision is separate"
+  },
+  "animation_files": [
+    "prop_animation_093.nsbca"
+  ],
+  "native_source": "res/field/props/models/villa_furniture_wall_clock.nsbmd",
+  "native_texture_context": [
+    "res/field/props/texture_sets/prop_texture_set_047.nsbtx"
+  ],
+  "conversion": {
+    "model_name": "t7_o17",
+    "objects": 3,
+    "materials": 4,
+    "pieces": 5,
+    "draw_calls": 5,
+    "textured_draw_calls": 5,
+    "faces": 80,
+    "vertices": 130,
+    "complex_texture_matrices": 0,
+    "texture_parse_error": null,
+    "texture_decode_errors": [],
+    "global_scale": 1.0,
+    "canonical_model_scale": 0.18242263113826873,
+    "web_tile_scale": 0.011401414446141796,
+    "glb_extents_tiles": [
+      0.27841187500000003,
+      0.3078381900458285,
+      0.04560565778456718
+    ]
+  }
+}

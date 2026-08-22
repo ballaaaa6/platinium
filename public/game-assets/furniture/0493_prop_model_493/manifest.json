@@ -1,0 +1,47 @@
+{
+  "id": 493,
+  "name": "prop_model_493",
+  "source_filename": "prop_model_493.nsbmd",
+  "category": "source_geometry_prop",
+  "identity_label": "source geometry multi-surface mesh model 493",
+  "glb": "furniture/0493_prop_model_493/model.glb",
+  "status": "READY_GLB",
+  "dimensions_model_units": {
+    "x": "7.10620",
+    "y": "3.85107",
+    "z": "8.48999"
+  },
+  "footprint_tiles": {
+    "x": "1",
+    "z": "1",
+    "basis": "ceil(model bbox span / 16-unit tile); visual estimate only; collision is separate"
+  },
+  "animation_files": [
+    "no animation archive bound in source row"
+  ],
+  "native_source": "res/field/props/models/prop_model_493.nsbmd",
+  "native_texture_context": [
+    "res/field/props/texture_sets/prop_texture_set_038.nsbtx"
+  ],
+  "conversion": {
+    "model_name": "tomb02",
+    "objects": 1,
+    "materials": 2,
+    "pieces": 2,
+    "draw_calls": 2,
+    "textured_draw_calls": 2,
+    "faces": 88,
+    "vertices": 126,
+    "complex_texture_matrices": 0,
+    "texture_parse_error": null,
+    "texture_decode_errors": [],
+    "global_scale": 1.0,
+    "canonical_model_scale": 0.24999995877280382,
+    "web_tile_scale": 0.015624997423300238,
+    "glb_extents_tiles": [
+      0.4441375000000001,
+      0.2406920989796269,
+      0.5306243021438143
+    ]
+  }
+}
