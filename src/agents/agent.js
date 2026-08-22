@@ -2,6 +2,9 @@ import * as THREE from 'three';
 import { getFramePath } from '../assets/assetCatalog.js';
 import { AGENT_STATES, getDirectionFrames } from './animation.js';
 
+const BILLBOARD_WORLD_SCALE = 1.75;
+const BILLBOARD_FEET_OFFSET = 0.05;
+
 export class OfficeAgent {
   constructor({ definition, index, grid, textures, group }) {
     this.definition = definition;
@@ -33,9 +36,9 @@ export class OfficeAgent {
       depthTest: true,
       depthWrite: false,
     }));
-    this.sprite.scale.set(2, 2, 1);
+    this.sprite.scale.set(BILLBOARD_WORLD_SCALE, BILLBOARD_WORLD_SCALE, 1);
     this.sprite.center.set(0.5, 0);
-    this.sprite.position.y = 0.05;
+    this.sprite.position.y = BILLBOARD_FEET_OFFSET;
     this.sprite.userData.agent = this;
     this.sprite.userData.kind = 'agent-billboard';
 
