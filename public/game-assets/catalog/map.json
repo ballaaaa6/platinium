@@ -11,18 +11,18 @@
     "bottom": "C21,R10"
   },
   "stats": {
-    "model_name": "native_office",
+    "model_name": "canonical_office_24x10",
     "objects": 1,
-    "materials": 5,
-    "pieces": 5,
-    "draw_calls": 5,
-    "textured_draw_calls": 0,
-    "faces": 144,
-    "vertices": 288,
+    "materials": 11,
+    "pieces": 86,
+    "draw_calls": 10,
+    "textured_draw_calls": 4,
+    "faces": 1032,
+    "vertices": 2064,
     "complex_texture_matrices": 0,
     "texture_parse_error": null,
     "texture_decode_errors": [],
-    "global_scale": 0.0625
+    "global_scale": 1.0
   },
   "unit_contract": {
     "logical_tile_world_unit": 1.0,
@@ -32,27 +32,39 @@
   },
   "glb_bounds_world_units": [
     [
-      -12.0,
-      0.0,
-      -5.2158203125
+      -12.009,
+      -0.16,
+      -5.38
     ],
     [
-      12.0,
-      5.6396484375,
-      5.1123046875
+      12.009,
+      3.35,
+      5.62
     ]
   ],
   "glb_extents_world_units": [
-    24.0,
-    5.6396484375,
-    10.328125
+    24.018,
+    3.51,
+    11.0
   ],
   "placement_contract": {
     "world_units_per_tile": 1.0,
     "grid_columns": 24,
     "grid_rows": 10,
-    "floor_origin_convention": "consumer chooses map origin; use layout.json/cells.csv for exact C/R mapping",
+    "floor_origin_convention": "centered at world x=0,z=0; use layout.json/cells.csv for exact C/R mapping",
     "top_door_cell": "C08,R01",
-    "bottom_door_cell": "C21,R10"
+    "bottom_door_cell": "C21,R10",
+    "walls": {
+      "top": true,
+      "bottom": true,
+      "left": false,
+      "right": false
+    },
+    "decorative_textures": [
+      "map/canonical_window.png",
+      "map/canonical_picture_left.png",
+      "map/canonical_picture_right.png",
+      "map/canonical_emblem.png"
+    ]
   }
 }
