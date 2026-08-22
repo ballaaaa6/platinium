@@ -7,6 +7,7 @@ import { FurnitureManager } from './world/furniture.js';
 import { OfficeGrid } from './world/grid.js';
 import { loadOfficeMap } from './world/map.js';
 import { createWorldScene } from './world/scene.js';
+import { installPlatinumBillboardDepthHarness } from './rendering/platinumBillboardDepthTest.js';
 import { createAssetsView } from './ui/assetsView.js';
 import { createDashboardHeader } from './ui/dashboard.js';
 import { createInspector } from './ui/inspector.js';
@@ -176,6 +177,7 @@ export class OfficeApp {
     this.mainStage.appendChild(this.assetsView.element);
     this.sidebar.setActive('dashboard');
     window.__OFFICE_APP__ = this;
+    this.depthTestHarness = installPlatinumBillboardDepthHarness(this);
     this.setLoading('Runtime ready', 'Real map, furniture, billboards, and collision metadata are live.');
     window.setTimeout(() => this.loadingOverlay.classList.add('is-hidden'), 450);
   }

@@ -1,5 +1,6 @@
 import * as THREE from 'three';
 import { getFramePath } from '../assets/assetCatalog.js';
+import { configurePlatinumBillboardMaterial } from '../rendering/platinumBillboardDepth.js';
 import { AGENT_STATES, getDirectionFrames } from './animation.js';
 
 const BILLBOARD_WORLD_SCALE = 1.75;
@@ -29,13 +30,15 @@ export class OfficeAgent {
     this.root.name = this.displayName;
     this.root.userData.agent = this;
 
-    this.sprite = new THREE.Sprite(new THREE.SpriteMaterial({
+    const billboardMaterial = new THREE.SpriteMaterial({
       map: null,
       transparent: true,
       alphaTest: 0.04,
       depthTest: true,
       depthWrite: false,
-    }));
+    });
+    configurePlatinumBillboardMaterial(billboardMaterial);
+    this.sprite = new THREE.Sprite(billboardMaterial);
     this.sprite.scale.set(BILLBOARD_WORLD_SCALE, BILLBOARD_WORLD_SCALE, 1);
     this.sprite.center.set(0.5, 0);
     this.sprite.position.y = BILLBOARD_FEET_OFFSET;
